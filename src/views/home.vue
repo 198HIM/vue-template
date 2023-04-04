@@ -3,7 +3,7 @@
 </script>
 
 <template>
-
+<div class="bg-red-100">home</div>
 </template>
 
 <style scoped>

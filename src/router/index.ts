@@ -5,6 +5,7 @@ import {createRouter, createWebHashHistory} from "vue-router";
 export const router = createRouter({
     history: createWebHashHistory(),
     routes: [{
+        name: "login",
         path: "/",
         meta:{title: "主页"},
         component: () => import("../views/login.vue")
