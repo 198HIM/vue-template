@@ -5,6 +5,7 @@ import {router} from './router'
 import "./assets/style/tailwindcss.css"
 
 
+const app = createApp(App);
+app.use(router)
+app.mount("#app");
 
-App.mount("#app");
-App.use(router)
